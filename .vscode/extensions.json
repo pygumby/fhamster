@@ -1,0 +1,19 @@
+{
+    "recommendations": [
+        // Python
+        "ms-python.python",
+
+        // Type checking
+        "astral-sh.ty",
+
+        // Linting and formatting
+        "charliermarsh.ruff",
+
+        // Theme
+        // "github.github-vscode-theme",
+        "mohdzaid.kiro-theme",
+
+        // GitHub Copilot
+        "github.copilot-chat",
+    ]
+}

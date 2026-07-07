@@ -1,0 +1,39 @@
+[project]
+name = "fhamster"
+version = "0.1.0"
+description = "A Python Tool for File Backups"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.20",
+    "ty>=0.0.56",
+]
+
+[tool.ruff]
+target-version = "py313"
+line-length = 88
+fix = true
+
+[tool.ruff.lint]
+extend-select = [
+    "ANN", # flake8-annotations
+    "B",   # flake8-bugbear
+    "D",   # pydocstyle
+    "E",   # pycodestyle
+    "F",   # Pyflakes
+    "I",   # isort
+    "UP",  # pyupgrade
+]
+
+[tool.ruff.lint.pydocstyle]
+convention = "pep257"
+
+[tool.ruff.format]
+indent-style = "space"
+quote-style = "double"
+
+[tool.ty.rules]
+missing-type-argument = "error"

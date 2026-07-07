@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.egg-info
+*.py[oc]
+build/
+dist/
+wheels/
+
+# venv
+.venv/
+
+# ruff
+.ruff_cache/

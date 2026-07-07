@@ -1,0 +1,53 @@
+{
+    // Color theme
+    // "workbench.colorTheme": "GitHub Dark Dimmed",
+    "workbench.colorTheme": "Kiro Dark",
+
+    // Font
+    "editor.fontFamily": "JetBrains Mono, Menlo, Monaco",
+    "terminal.integrated.fontFamily": "JetBrains Mono, Menlo, Monaco",
+    "editor.fontSize": 12,
+    "terminal.integrated.fontSize": 12,
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontLigatures.enabled": true,
+    "terminal.integrated.gpuAcceleration": "off",
+
+    // Indentation
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+
+    // Lines
+    "editor.rulers": [ 88 ],
+    "editor.wordWrap": "off",
+
+    // Whitespace
+    "editor.renderWhitespace": "boundary",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+
+    // Various
+    "explorer.sortOrder": "type",
+    "files.autoSave": "onFocusChange",
+    "files.exclude": {
+        "**/.git": false,
+    },
+    "git.addAICoAuthor": "off",
+
+    // Python
+    "python.languageServer": "None",
+    "ty.importStrategy": "fromEnvironment",
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "always",
+            "source.organizeImports": "always"
+        },
+    },
+
+    // Markdown
+    "[markdown]": {
+        "editor.wordWrap": "off",
+    },
+}
